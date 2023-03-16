@@ -104,11 +104,11 @@ const LaptopCanvas = (props) => {
                 <div 
                   onClick={()=> downloadFile(CV_FILE_URL)}
                   className=" h-[218px] w-[335px] flex flex-col mt-[30%] ml-10 items-center ">
-                  <div className="w-[109px] h-[167px]">
+                  <div className="w-[109px] h-[167px] ">
                   <img
                     src={download}
                     alt="logo"
-                    className="w-9 h-9 object-contain"
+                    className="w-9 h-9 object-contain cursor-pointer"
                   />
                   <p className="text-black text-[18px] font-bold cursor-pointer">
                     Get My CV
