@@ -138,7 +138,7 @@ const experiences = [
     company_name: "FreeLancer",
     icon: freelancer,
     iconBg: "#383E56",
-    date: "Dec 2022 - Till Now",
+    date: "Dec 2022 - Apr 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
