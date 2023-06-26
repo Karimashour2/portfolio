@@ -22,8 +22,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className={` mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]`}
       >
-        I'm skilled Front-End Web Developer with experience in JavaScript and
-        TypeScript, and expertise in ReactJS framework also build many
+        I'm skilled Software Developer(FrontEnd) with experience in JavaScript and
+        TypeScript, and expertise in Angular framework and ReactJS library also build many
         responsive web applications and user interfaces. I'm a quick learner and
         cooperative person. I'm passionate about learning new tools and
         technologies. My goal to be a better developer. Let's work together

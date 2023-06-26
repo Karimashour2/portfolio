@@ -1,5 +1,6 @@
 import freelancer from "./company/freelancer.png";
 import eastern from "./company/eastern.png";
+import kn from "./company/kn.png";
 
 import github from "./contact/github.png";
 import facebook from "./contact/facebook.png";
@@ -14,6 +15,7 @@ import menu from "./nav/menu.svg";
 
 import web from "./service/web.png";
 import react from "./service/react.png";
+import angular from "./service/angular.png";
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -24,6 +26,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import ngxBootstrap from "./tech/ngx-bootstrap.svg";
 import bootstrap from "./tech/bootstrap.png";
 
 import travel from "./work/travel.png";
@@ -36,9 +39,11 @@ import calculator from "./work/calculator.png";
 export {
   logo,
   web,
+  angular,
   react,
   freelancer,
   eastern,
+  kn,
   github,
   facebook,
   linkedin,
@@ -49,6 +54,7 @@ export {
   close,
   css,
   git,
+  ngxBootstrap,
   html,
   javascript,
   reactjs,

@@ -25,7 +25,7 @@ const Experience = () => {
               contentStyle={{ background: "#b0b0b0", color: "#000",}}
               contentArrowStyle={{ borderRight: "7px solid #777777" }}
               date={exp.date}
-              iconStyle={{ background: exp.iconBg }}
+              iconStyle={{ background: exp.iconBg, overflow: 'hidden' }}
               icon={
                 <div>
                   <img src={exp.icon} alt={exp.company_name} />

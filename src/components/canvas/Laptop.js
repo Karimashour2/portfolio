@@ -1,6 +1,6 @@
 import {
   ContactShadows,
-  Environment,
+  // Environment,
   Html,
   OrbitControls,
   useGLTF,
@@ -23,7 +23,7 @@ const Laptop = () => {
           <group rotation={[0, Math.PI, 0]} position={[-1.5, 1.5, 0]}>
             <LaptopCanvas />
           </group>
-          <Environment preset="city" />
+          {/* <Environment preset="" /> */}
         </Suspense>
         <ContactShadows position={[0, -2.5, 0]} scale={20} blur={2} far={4.5} />
         <OrbitControls

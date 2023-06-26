@@ -11,6 +11,7 @@ import {
   git,
   freelancer,
   eastern,
+  kn,
   react,
   landingpage,
   weather,
@@ -24,7 +25,9 @@ import {
   email,
   phone,
   whatsapp,
-  web
+  // web,
+  angular,
+  ngxBootstrap,
 } from "../assets";
 
 export const navLinks = [
@@ -51,9 +54,13 @@ export const navLinks = [
 ];
 
 const services = [
+  // {
+  //   title: "Front End Developer",
+  //   icon: web,
+  // },
   {
-    title: "Front End Developer",
-    icon: web,
+    title: "Angular Developer",
+    icon: angular,
   },
   {
     title: "React Developer",
@@ -79,6 +86,10 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
@@ -95,6 +106,10 @@ const technologies = [
     icon: bootstrap,
   },
   {
+    name: "ngx-bootstrap",
+    icon: ngxBootstrap,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
@@ -105,6 +120,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Jr.Software Developer(Angular Developer)",
+    company_name: "KnowledgeNet",
+    icon: kn,
+    iconBg: "#383E56",
+    date: "May 2023 - Till Now",
+    points: [
+      "Develop and maintain web applications using Angular framework to ensure high quality and timely delivery.",
+      "Work closely with the design team to ensure a seamless integration of design and functionality.",
+      "Write clear, efficient, and maintainable code using HTML, CSS, JavaScript, and TypeScript.",
+      "Develop and maintain reusable Angular components, libraries, and frameworks.",
+    ],
+  },
   {
     title: "React.js Developer",
     company_name: "FreeLancer",
